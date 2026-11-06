@@ -6,10 +6,10 @@ Predicts monthly household electricity bills using multiple linear regression ba
 
 | Member | Entry No. | Role |
 | :--- | :--- | :--- |
-| DIVYDAKSH-TIWARI  | <2026DAB1292> | Documentation lead |
-| ASHUTOSH-KUMAR    | <2026AIB1023> | Execution lead     |
-| K.N. PRAYOG       | <2026EEB1361> | PPT lead           |
-| GOKUL-GARG        | <2026MCB1526> | Video lead         |
+| DIVYDAKSH-TIWARI  | 2026DAB1292 | Documentation lead |
+| ASHUTOSH-KUMAR    | 2026AIB1023 | Execution lead     |
+| K.N. PRAYOG       | 2026EEB1361 | PPT lead           |
+| GOKUL-GARG        | 2026MCB1526 | Video lead         |
 
 
 ## Project Structure
