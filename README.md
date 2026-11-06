@@ -7,11 +7,10 @@ Predicts monthly household electricity bills using multiple linear regression ba
 | Member | Entry No. | Role |
 | :--- | :--- | :--- |
 | <DIVYDAKSH-TIWARI > | <2026DAB1292> | Documentation lead |
-| <ASHUTOSH-KUMAR   > | <2026AIB1023> | Run and reproducibility lead[cite: 7] |
-| <K.N. PRAYOG      > | <2026EEB1361> | PPT lead[cite: 7] |
-| <GOKUL-GARG       > | <2026MCB1526> | Video lead[cite: 7] |
+| <ASHUTOSH-KUMAR   > | <2026AIB1023> | Execution lead     |
+| <K.N. PRAYOG      > | <2026EEB1361> | PPT lead           |
+| <GOKUL-GARG       > | <2026MCB1526> | Video lead         |
 
-*All four members contributed code (see commit history)*[cite: 5, 7].
 
 ## Project Structure
 
