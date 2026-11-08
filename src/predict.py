@@ -10,3 +10,6 @@ values = []
 for feature in FEATURES:
     values.append(float(input(feature + ": ")))
 
+house=pd.DataFrame([values], columns=FEATURES)
+bill = model.predict(house)[0]
+print("Predicted monthly electricity bill:", round(bill, 2))
