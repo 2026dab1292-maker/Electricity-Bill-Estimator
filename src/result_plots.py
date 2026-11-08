@@ -12,3 +12,11 @@ def make_result_plots(y_test, y_pred, r2):
     plt.title("Actual vs Predicted (R2 = " + str(round(r2, 3)) + ")")
     plt.savefig("outputs/actual_vs_predicted.png")
     plt.close()
+    
+    errors = y_test - y_pred
+    plt.hist(errors, bins=30)
+    plt.xlabel("Error (actual - predicted)")
+    plt.ylabel("Number of households")
+    plt.title("Prediction errors")
+    plt.savefig("outputs/prediction_errors.png")
+    plt.close()
