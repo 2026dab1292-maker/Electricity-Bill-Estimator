@@ -19,4 +19,6 @@ def make_result_plots(y_test, y_pred, r2):
     plt.ylabel("Number of households")
     plt.title("Prediction errors")
     plt.savefig("outputs/prediction_errors.png")
-    plt.close()
+    plt.close() 
+
+    print("Result charts saved in outputs/ folder")
