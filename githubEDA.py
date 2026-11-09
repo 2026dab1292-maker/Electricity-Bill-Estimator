@@ -3,7 +3,7 @@ import os
 import matplotlib.pyplot as plt
 import pandas as pd
 os.makedirs("output", exist_ok=True)
-df=pd.read_csv(r"C:\Users\ADMIN\Downloads\household_energy_bill.csv")
+df=pd.read_csv(r"C:\Users\ADMIN\Downloads\Household energy bill.csv")
 
 def scatter_chart(df, column, filename):
     # Scatter plot of one column against the electricity bill
