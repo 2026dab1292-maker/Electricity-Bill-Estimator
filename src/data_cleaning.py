@@ -19,7 +19,7 @@ def load_and_clean(path):
     df = df[df["num_people"] >= 1]
     df = df[df["num_children"] >= 0]
     df = df[df["housearea"] > 0]
-    df = df[df["ave_monthly_inc"] >= 0]
+    df = df[df["ave_monthly_income"] >= 0]
     df = df[df["amount_paid"] > 0]
 
     # Yes/No columns must be only 0 or 1
