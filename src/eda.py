@@ -21,7 +21,6 @@ def scatter_chart(df, column, filename):
 
 
 def run_eda(df):
-    # Basic numbers: mean, min, max, etc.
     print(df.describe())
 run_eda(df)
 
@@ -36,7 +35,7 @@ plt.show()
 
 # Chart 2 and 3: house area and income against the bill
 scatter_chart(df, "housearea", "housearea_vs_bill.png")
-scatter_chart(df, "ave_monthly_inc", "income_vs_bill.png")
+scatter_chart(df, "ave_monthly_income", "income_vs_bill.png")
 
 
 
