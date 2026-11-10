@@ -1,0 +1,14 @@
+R2 score: 0.859
+MAE: 55.61
+RMSE: 65.67
+
+Coefficients (effect of each column on the bill):
+num_rooms: 0.5484
+num_people: 5.3026
+housearea: 0.0408
+is_ac: 164.5214
+is_tv: 69.2439
+is_flat: 59.1727
+ave_monthly_income: 0.001
+num_children: 91.937
+is_urban: 252.3481
