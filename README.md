@@ -14,3 +14,18 @@ Predicts monthly household electricity bills using multiple linear regression ba
 
 ## Project Structure
 
+```
+Electricity-Bill-Estimator/
+├── data/
+│   └── household_energy_bill_data.csv   # dataset
+├── src/
+│   ├── main.py            # runs all steps
+│   ├── data_cleaning.py   # loads and cleans the data
+│   ├── eda.py             # data charts
+│   ├── train_model.py     # trains the model and checks accuracy
+│   ├── result_plots.py    # result charts
+│   └── predict.py         # predicts the bill for a new house
+├── outputs/               # charts, metrics.txt and the saved model
+├── requirements.txt       # libraries to install
+└── README.md
+```
