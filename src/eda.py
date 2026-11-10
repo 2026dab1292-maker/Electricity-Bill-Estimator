@@ -1,10 +1,6 @@
 #written by : ppt lead (2026EEB1361)
 
-import os
 import matplotlib.pyplot as plt
-import pandas as pd
-os.makedirs("output", exist_ok=True)
-df=pd.read_csv(r"path")
 
 def scatter_chart(df, column, filename):
     # Scatter plot of one column against the electricity bill
@@ -39,8 +35,11 @@ def run_eda(df):
     correlation.plot(kind="bar")
     plt.title("Correlation with electricity bill")
     plt.tight_layout()
-    plt.savefig("output/correlation.png")
-    plt.show()
+    plt.savefig("outputs/correlation.png")
     plt.close()
-    
+
     print("EDA charts saved in outputs/ folder")
+
+   
+    
+   
