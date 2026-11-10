@@ -1,5 +1,5 @@
 #written by : ppt lead (2026EEB1361)
-
+import pandas as pd
 import matplotlib.pyplot as plt
 
 def scatter_chart(df, column, filename):
