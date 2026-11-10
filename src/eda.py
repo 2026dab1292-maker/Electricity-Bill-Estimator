@@ -13,7 +13,6 @@ def scatter_chart(df, column, filename):
 
 def run_eda(df):
     print(df.describe())
-run_eda(df)
 
     # Chart 1: how the bills are spread
     plt.hist(df["amount_paid"], bins=30)
