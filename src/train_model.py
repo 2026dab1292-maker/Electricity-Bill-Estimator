@@ -1,4 +1,3 @@
-
 # Written by: Member 2 (Execution lead)
 
 import pickle
