@@ -8,12 +8,12 @@ Predicts monthly household electricity bills using multiple linear regression ba
 
 ## 👥 Team and Roles
 
-| Member           | Entry No.   | Role               | GitHub Handle   |
-| ---------------- | ----------- | ------------------ | --------------- |
-| DIVYDAKSH-TIWARI | 2026DAB1292 | Documentation lead | [FILL: @handle] |
-| ASHUTOSH-KUMAR   | 2026AIB1023 | Execution lead     | [FILL: @handle] |
-| K.N. PRAYOG      | 2026EEB1361 | PPT lead           | [FILL: @handle] |
-| GOKUL-GARG       | 2026MCB1526 | Video lead         | [FILL: @handle] |
+| Member           | Entry No.   | Role               |
+| ---------------- | ----------- | ------------------ |
+| DIVYDAKSH-TIWARI | 2026DAB1292 | Documentation lead |
+| ASHUTOSH-KUMAR   | 2026AIB1023 | Execution lead     |
+| K.N. PRAYOG      | 2026EEB1361 | PPT lead           | 
+| GOKUL-GARG       | 2026MCB1526 | Video lead         | 
 
 *All four members contributed code (see commit history).*
 
@@ -43,15 +43,15 @@ Households often cannot estimate their upcoming electricity bill, which makes bu
 
 ## 📂 Dataset Description
 
-| Attribute       | Description                                           |
-| --------------- | ----------------------------------------------------- |
-| File            | `data/household_energy_bill_data.csv`                 |
-| Source          | [FILL: where the dataset came from, e.g. Kaggle link] |
-| Rows            | [FILL: number of rows]                                |
-| Columns         | [FILL: number of columns]                             |
-| Target Variable | [FILL: name of the bill column]                       |
-| Input Features  | House area, occupants, appliance indicators           |
-| Learning Task   | Regression (multiple linear regression)               |
+| Attribute       | Description                                                               |
+| --------------- | -----------------------------------------------------                     |
+| File            | `data/household_energy_bill_data.csv`                                     |
+| Source          |https://www.kaggle.com/datasets/gireeshs/household-monthly-electricity-bill|
+| Rows            | 1000                                                                      |
+| Columns         | 10                                                                        |
+| Target Variable | Amount paid                                                               |
+| Input Features  | House area, occupants, appliance indicators                               |
+| Learning Task   | Regression (multiple linear regression)                                   |
 
 The dataset is included in this repository, so no separate download is needed.
 
@@ -95,7 +95,8 @@ Electricity-Bill-Estimator/
 │   └── predict.py         # predicts the bill for a new house
 ├── outputs/               # charts, metrics.txt and the saved model
 ├── requirements.txt       # libraries to install (pinned versions)
-└── README.md
+|── README.md
+|--Image/                  # contains the expected output in terminal   
 ```
 
 ### Folder Description
@@ -107,7 +108,7 @@ Electricity-Bill-Estimator/
 | `outputs/`         | Stores charts, `metrics.txt` and the saved model |
 | `requirements.txt` | Lists required Python libraries (pinned)        |
 | `README.md`        | Project documentation                           |
-
+| `Image/`           | contains expected outcome on terminal at last   |
 ---
 
 ## 🛠️ Technologies Used
@@ -183,9 +184,9 @@ python src/main.py
 
 This cleans the data, creates the EDA charts, trains and evaluates the model, and saves the result plots.
 
-## 📸 Expected Output after running `python src/main.py`
+## 📸 Expected Output after running `python src/main.py` in terminal
 
-![expected output in terminal](Image/Screenshot 2026-11-11 104415.png)
+![expected output in terminal](Image/Screenshot_2026-11-11_104415.png)
 
 Running `python src/main.py` produces outputs in `outputs/`
 
@@ -193,49 +194,29 @@ Files saved in `outputs/`:
 
 - `metrics.txt`: model accuracy metrics
 
--images(png) of the scatter plots and histograms
-for eg: ![AVERAGE MONTHLY INCOME VS ELECTRICITY BILL](outputs/income_vs_bill.png) 
+- `images(png) of the scatter plots and histograms`
+for eg:
+![AVERAGE MONTHLY INCOME VS ELECTRICITY BILL](outputs/income_vs_bill.png) 
 - the saved trained model
 
 ---
 
 ## 📈 Model Performance Results
 
-| Metric        | Value                    |
-| ------------- | ------------------------ |
-| R² (test set) | [FILL: from metrics.txt] |
-| MAE           | [FILL: from metrics.txt] |
-| RMSE          | [FILL: from metrics.txt] |
+| Metric        | Value   |
+| ------------- | ------- |
+| R² (test set) | 0.859   |
+| MAE           | 55.61   |
+| RMSE          | 65.67   |
 
-**Observation:** [FILL: 1-2 lines, e.g. "The bill increases with house area and the number of appliances; the model explains X% of the variation."]
 
 ### Results Visualization
 ![Predicted vs Actual](outputs/actual_vs_predicted.png)
-![Predicted vs Actual](outputs/[FILL: chart-filename.png])
 
-![EDA chart](outputs/[FILL: eda-chart-filename.png])
+![correlation](outputs/correlation.png)
 
----
+![Histogram](outputs/histogram.png)
 
-## 🔮 Prediction Demo
-
-The trained model predicts the bill for a new house:
-
-```
-House details (area, occupants, appliances)
-        |
-        ↓
-Saved trained model
-        |
-        ↓
-Predicted monthly bill
-```
-
-Run:
-
-```bash
-python src/predict.py
-```
 
 ---
 
@@ -246,41 +227,23 @@ python src/predict.py
 
 ---
 
-## ✅ What Worked and What Didn't
-
-- **Worked:** [FILL: e.g. linear regression gave a good fit on this data]
-- **Didn't / limitations:** [FILL: e.g. dataset is small; a linear model cannot capture non-linear effects]
-
----
-
-## 🚀 Future Improvements
-
-- Try other models such as Random Forest or Gradient Boosting and compare with linear regression.
-- Add more features such as city, season, tariff slab and appliance wattage.
-- Build a simple web app where a user enters house details and gets a bill estimate.
-- Use cross-validation and hyperparameter tuning for more reliable results.
-
----
 
 ## 🤝 Contributions
 
 | Member           | Contribution                                                       |
 | ---------------- | ------------------------------------------------------------------ |
-| DIVYDAKSH-TIWARI | [FILL: e.g. README, project structure, documentation]              |
-| ASHUTOSH-KUMAR   | [FILL: e.g. requirements.txt, run steps, fresh-clone testing]     |
-| K.N. PRAYOG      | [FILL: e.g. EDA and result plots, 5-slide PPT]                     |
-| GOKUL-GARG       | [FILL: e.g. model training, demo video]                            |
+| DIVYDAKSH-TIWARI |  README, project structure, documentation             |
+| ASHUTOSH-KUMAR   |  requirements.txt, run steps, fresh-clone testing     |
+| K.N. PRAYOG      |  EDA and result plots, 5-slide PPT                     |
+| GOKUL-GARG       |  model training, demo video                            |
 
 ---
 
 ## 🤖 AI-use Disclosure
 
 - Claude: drafted the first version of this README; edited and verified by Divydaksh.
-- [FILL: add one line per other tool, e.g. ChatGPT: fixed an error in src/eda.py; we tested the fix.]
+- ChatGPT: fixed an error in src/eda.py; we tested the fix.
 - No AI was used to generate the dataset or the results.
 
 ---
 
-## 📄 License
-
-This project was created for educational purposes as part of the AI101 mini-project at IIT Ropar.
