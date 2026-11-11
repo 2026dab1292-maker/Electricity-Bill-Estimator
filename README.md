@@ -158,12 +158,14 @@ python -m venv venv
 
 ### 3. Activate the Environment
 
-```bash
+
 # Windows
+```bash
 venv\Scripts\activate
 ```
-```bash
+
 # macOS / Linux
+```bash
 source venv/bin/activate
 ```
 
