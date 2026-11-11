@@ -151,20 +151,22 @@ cd Electricity-Bill-Estimator
 ```
 
 ### 2. Create a Virtual Environment
-
+## Windows(command prompt)
 ```bash
 python -m venv venv
 ```
-
+## Linux/macOS
+```bash
+python3 -m venv .venv
+```
 ### 3. Activate the Environment
 
-
-# Windows
+## Windows(command prompt)
 ```bash
 venv\Scripts\activate
 ```
 
-# macOS / Linux
+## macOS / Linux
 ```bash
 source venv/bin/activate
 ```
@@ -236,9 +238,9 @@ for eg:
 | Member           | Contribution                                                       |
 | ---------------- | ------------------------------------------------------------------ |
 | DIVYDAKSH-TIWARI |  README, project structure, documentation             |
-| ASHUTOSH-KUMAR   |  requirements.txt, run steps, fresh-clone testing     |
-| K.N. PRAYOG      |  EDA and result plots, 5-slide PPT                     |
-| GOKUL-GARG       |  model training, demo video                            |
+| ASHUTOSH-KUMAR   |  requirements.txt, run steps, fresh-clone testing,   |
+| K.N. PRAYOG      |  EDA , 5-slide PPT                     |
+| GOKUL-GARG       |  model training, demo video, result plots                 |
 
 ---
 
