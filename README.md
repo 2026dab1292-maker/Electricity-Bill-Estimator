@@ -222,7 +222,7 @@ for eg:
 
 ## 🔗 Links
 
-- 📑 Slides (5): [Slides](docs/Monthly_Electricity_Bill_Prediction_Team10.pdf)
+- 📑 Slides (5): [Slides](docs/Team10_slides(5).pdf)
 - 🎥 Video (max 5 min): [FILL: unlisted YouTube or Drive link]
 
 ---
