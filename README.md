@@ -241,7 +241,7 @@ for eg:
 
 ## 🤖 AI-use Disclosure
 
-- Claude: drafted the first version of this README; edited and verified by Divydaksh.
+- Claude: drafted the structure for this README; edited and made by Divydaksh.
 - ChatGPT: fixed an error in src/eda.py; we tested the fix.
 - No AI was used to generate the dataset or the results.
 
