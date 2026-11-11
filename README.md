@@ -228,7 +228,7 @@ for eg:
 ## 🔗 Links
 
 - 📑 Slides (5): [Slides](docs/Team10_slides(5).pdf)
-- 🎥 Video (max 5 min): [FILL: unlisted YouTube or Drive link]
+- 🎥 Video (max 5 min): [video link](https://drive.google.com/file/d/1rldg6cdLyjHQivNp80z77pfv7yFfHavw/view)
 
 ---
 
